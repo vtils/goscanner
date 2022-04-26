@@ -36,5 +36,5 @@ func main() {
 	}
 	scanner.SearchForFunction(location,ignore)
 
-	fmt.Printf("Found init function in %v files\n",scanner.Count)
+	fmt.Printf("Found %v function/method in %v files\n",scanner.Method,scanner.Count)
 }
